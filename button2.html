@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+ 
+    <style>
+        body{
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #F5F5F5;
+        }
+        .heading{
+            display: flex;
+            flex-direction: column; 
+            font-family: sans-serif;
+            margin-top: 5rem;
+        }
+        .heading>h1{
+            margin-left: 3rem;
+            font-size: 3rem;
+            letter-spacing: 1.2px;
+        }
+        .heading>p{
+           text-transform: capitalize;
+           margin-left: 5rem;
+           letter-spacing: 1.2px;
+        }
+        form{
+            margin-top: 8rem;
+            margin-left: 3rem;
+        }
+        form>input{
+            background-color: white;
+            height: 3rem;
+            width: 80%;
+            outline: none;
+            border: none;
+        }
+        form>input:focus{
+            border-bottom: 2px solid blue;
+            outline: none;
+        }
+        form>button{
+            display: flex;
+            flex-direction: column;
+            width: 13rem;
+            margin-top: 2rem;
+            height: 3rem;
+            border-radius: 5px;
+            background-color: blue;
+            color: white;
+            letter-spacing: 1.2px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            padding-top: 8px;
+            margin-left: 5rem;
+        }
+        @media screen and (max-width: 400px) {
+            .heading>h1{
+            margin-left: 0.5rem;
+            font-size: 2rem;
+            letter-spacing: 1.2px;
+        }  
+        .heading>p{
+           margin-left: 2.1rem;
+        }
+        form>button{
+            margin-left: 1.1rem;
+        }
+        }
+      </style>
+
+</head>
+<body>
+     <div class="heading">
+        <h1>Welcome To Upchar</h1>
+        <p>First-Aid:all you need to know</p>
+        <form action="/" method="post">
+            <input type="text" name="input" placeholder=" Your Problem" >
+            <button type="submit" name="submit" >Submit</button>
+        </form>
+     </div>
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+</body>
+</html>
