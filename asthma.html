@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://www.google.com">
     <title>asthma</title>
-    <link rel="stylesheet" href="output.css">
-    <link rel="stylesheet" href="./style.css"/>
+   
+    <link rel="stylesheet" href="./public//style.css">
+
 </head>
 <body>
      <div class="nav">Asthma First-Aid</div>
     <ul>
         <div class="images">
-            <img src="./public/images/asthma/0.jpg" alt="caugh image" >
+            <img src="./public/images/asthma/0.jpg" alt="caugh image" class="images">
             <li class="sym">Help the person to sit up and remain calm</li> 
         </div>
         <div class="images">
@@ -26,12 +28,12 @@
         <div class="images">
             <img src="./public/images/asthma/3.jpg" alt="" >
             <li class="sym"> Loosen any tight clothing that may be restricting their breathing</li>     
+            <li class="sym">If the person's symptoms do not improve, call emergency services or take them to the nearest hospital for further treatment</li> 
         </div>
        
-        <li class="sym">If the person's symptoms do not improve, call emergency services or take them to the nearest hospital for further treatment</li> 
     </ul>
 
 
-    <a href="http://localhost:3000/"><button>Home</button></a>
+    <a href="/search"><button>Back</button></a>
 </body>
 </html>

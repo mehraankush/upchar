@@ -26,12 +26,9 @@
 #top{
     font-size: 2rem;
     font-family: 'Poppins', sans-serif;
-    margin-left: 4rem;
-    margin-top: 1px;
-
-    /* padding-bottom: 0.1rem; */
-
+    margin-left: 41%;
 }
+
 .container{
     display: flex;
     flex-direction: column;
@@ -45,6 +42,7 @@
     margin-top: 4rem;
 }
 
+
 .box button{
     width: 6rem;
     height: 3rem;
@@ -55,54 +53,58 @@
     outline: none;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
-
-    </style>
+@media screen and (max-width: 400px) {
+        #top{
+        font-family: 'Poppins', sans-serif;
+        margin-left: 3rem;
+        margin-top: 1rem;
+    }
+}
+</style>
 </head>
     <body>
         
-            <p id="top">First-Aid Brochure</p>
-      
+        
         <div class="container">
+            <p id="top">First-Aid Brochure</p>
             <div  class=" box">
-                 <button>hello</button>
-                 <button>hello</button>
+               <a href="/asthama.html" ><button>Asthama</button></a> 
+                <a href="burns.html"><button>Burns</button></a>
             </div>
             <div  class="box">
-                 <button>hello</button>
-                 <button>hello</button>
+                 <a href="/chocking.html"><button>Chocking</button></a>
+                 <a href="/diabetes.html"><button>Diabetes</button></a>
             </div>
             <div  class="box">
-                 <button>hello</button>
-                 <button>hello</button>
+                 <a href="/Elec_Shock.html"><button>Electric shock</button></a>
+                 <a href="/fever.html"><button>Fever</button></a>
             </div>
             <div  class="box">
-                 <button>hello</button>
-                 <button>hello</button>
+                 <a href="/fracture.html"><button>Fracture</button></a>
+                 <a href="/stroke.html"><button>Stroke</button></a>
             </div>
             <div  class="box">
-                 <button>hello</button>
-                 <button>hello</button>
+                 <a href="/headache.html"><button>Headache</button></a>
+                 <a href="/heart_attack.html"><button>Heart Attack</button></a>
             </div>
-            <div   class="box">
-                 <button>hello</button>
-                 <button>hello</button>
-            </div>
-            <div  class="box">
-                 <button>hello</button>
-                 <button>hello</button>
+            <div class="box">
+                 <a href="/motion-sickness.html"><button>Motion Sickness</button></a>
+                 <a href="/near_drowning.html"><button>Near drowning</button></a>
             </div>
             <div  class="box">
-                 <button>hello</button>
-                 <button>hello</button>
+                 <a href="/nose-bleed.html"><button>Noose Bleed</button></a>
+                 <a href="/cut.html"><button>Cut</button></a>
             </div>
             <div  class="box">
-                 <button>hello</button>
-                 <button>hello</button>
+                 <a href="/snake-bite.html"><button>Snake Bite</button></a>
+                 <a href="/poisoning.html"><button>Poisnoing</button></a>
+            </div>
+            <div  class="box">
+                 <a href="/stomach-ache.html"><button>Stomach ache</button></a>
             </div>
         </div>
+       
     </body>
 </html>
